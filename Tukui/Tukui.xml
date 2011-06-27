@@ -176,4 +176,5 @@
 	<Script file="developer\test.lua"/>
 	
 	<Script file="modules\chat\blizzfixrealidlink.lua"/>	
+	<Script file="modules\extras\raidutility.lua"/>
 </Ui>
