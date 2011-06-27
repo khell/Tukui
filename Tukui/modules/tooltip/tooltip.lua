@@ -39,7 +39,7 @@ end
 anchor:SetTemplate("Default")
 anchor:SetBackdropBorderColor(1, 0, 0, 1)
 anchor:SetMovable(true)
-anchor.text = T.SetFontString(anchor, C.media.uffont, 12)
+anchor.text = T.SetFontString(anchor, C.media.uffont, 16)
 anchor.text:SetPoint("CENTER")
 anchor.text:SetText(L.move_tooltip)
 
@@ -262,6 +262,7 @@ GameTooltip:HookScript("OnTooltipSetUnit", function(self)
 	local color = GetColor(unit)	
 	if not color then color = "|CFFFFFFFF" end -- just safe mode for when GetColor(unit) return nil for unit too far away
 
+	_G["GameTooltipTextLeft1"]:SetFont(C["media"].font, 15, "THINOUTLINE")
 	_G["GameTooltipTextLeft1"]:SetFormattedText("%s%s%s", color, title or name, realm and realm ~= "" and " - "..realm.."|r" or "|r")
 
 	if(UnitIsPlayer(unit)) then

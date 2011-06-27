@@ -5,6 +5,7 @@ C["media"] = {
 	["font"] = [=[Interface\Addons\Tukui\medias\fonts\normal_font.ttf]=], -- general font of tukui
 	["uffont"] = [[Interface\AddOns\Tukui\medias\fonts\uf_font.ttf]], -- general font of unitframes
 	["dmgfont"] = [[Interface\AddOns\Tukui\medias\fonts\combat_font.ttf]], -- general font of dmg / sct
+	["tooltip"] = [[Interface\Addons\Tukui\media\fonts\normal_font.ttf]], -- general font of tooltips / etc
 	
 	-- fonts (DEUTSCH)
 	["de_font"] = [=[Interface\Addons\Tukui\medias\fonts\normal_font.ttf]=], -- general font of tukui
